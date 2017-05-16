@@ -1,0 +1,22 @@
+.group-authors-ros .thumbnail {
+  background-color: $background-color;
+  border: none;
+}
+
+.group-container {
+  align-content: center;
+  margin-bottom: 2em;
+
+  .jumbotron {
+    margin-top: 2em;
+    background-color: $accent-color;
+
+    .list-group-item {
+      background-color: $background-color
+    }
+  }
+
+  .btn {
+    background-color: $light-accent;
+  }
+}
