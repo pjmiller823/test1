@@ -11,7 +11,6 @@
     align-items: center;
 
     h1 {
-      text-align: center;
       margin-bottom: 3m;
       font-size: 900%;
     }
@@ -29,5 +28,12 @@
   .landing-media {
     background-color: $primary-color;
     font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-bottom: 3m;
+    font-size: 200%;
   }
 }
